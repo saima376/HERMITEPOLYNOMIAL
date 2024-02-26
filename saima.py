@@ -19,7 +19,7 @@ def hermite_equation(n):
         return   r"H_{%d}(x) = 2x \cdot H_{%d}(x) - 2(%d) \cdot H_{%d}(x)" % (n, n-1, n-1, n-2)
 
 def main():
-    st.title('Hermite Polynomials Visualization and Applications')
+    st.header(":rainbow[Hermite Polynomials Visualization and Applications]:star:")
 
     st.markdown("---")
 
